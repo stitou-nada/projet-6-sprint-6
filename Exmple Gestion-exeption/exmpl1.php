@@ -1,0 +1,13 @@
+<?php
+   $a=10;
+   $b=2;
+   try{
+      if($b==0)
+         throw new Exception("Le dénominateur ne doit pas être nul.");
+      $c=$a/$b;
+      echo $c;
+   }
+   catch(Exception $e){
+      echo $e->getMessage();
+   }
+?>
