@@ -1,0 +1,15 @@
+{
+    "name": "solicode/projet-6",
+    "autoload": {
+        "psr-4": {
+            "Solicode\\Projet6\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stitou-nada",
+            "email": "nadastito1087@gmail.com"
+        }
+    ],
+    "require": {}
+}
