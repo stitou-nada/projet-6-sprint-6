@@ -1,6 +1,6 @@
 <?php
    $a=10;
-   $b=0;
+   $b=5;
    try{
       if($b==0)
          throw new Exception("Le dénominateur ne doit pas être nul.");
