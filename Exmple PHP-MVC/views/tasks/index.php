@@ -13,7 +13,7 @@
 foreach($task as $value){
 
 
-    echo $value["Task"];
+    echo $value["task"];
 }
 ?>
 
