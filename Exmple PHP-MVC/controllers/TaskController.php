@@ -1,12 +1,13 @@
 <?php
 
-class TaskController {
+class TaskController extends Controller  {
 
- function getAll(){
+public function getTasks(){
+    $name = "fff";
+    $this->render('index',compact('name'));
+}
 
-    echo "dataa";
- }
-    
+
 }
 
 ?>

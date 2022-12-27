@@ -1,7 +1,7 @@
 <?php
 define("ROOT",str_replace('index.php','',$_SERVER['SCRIPT_FILENAME']));
 
-
+require_once(ROOT.'app/Controller.php');
 
 // explode kat 9asemlek lahasab paramtre lolania
  $params= explode("/",$_GET['q']);
@@ -34,9 +34,7 @@ else{
 }
 
 }
-else {
-  
-}
+
 
 
 
