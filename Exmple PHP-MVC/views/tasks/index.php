@@ -7,8 +7,15 @@
     <title>mvc</title>
 </head>
 <body>
-    <?php
-     echo $name
-    ?>
+
+
+<?php
+foreach($task as $value){
+
+
+    echo $value["Task"];
+}
+?>
+
 </body>
 </html>
